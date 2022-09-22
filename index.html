@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.css">
+  <title>Formulário</title>
+</head>
+
+<body>
+  <div class="container">
+    <div class="header">
+      <h2>Criar uma conta</h2>
+    </div>
+    <form id="form" class="form">
+      <div class="form-control">
+        <label for="username">Nome de usuário*:</label>
+        <input type="text" name="name" id="username">
+        <i class="fas fa-exclamation-circle"></i>
+        <i class="fas fa-check-circle"></i>
+        <small>Mensagem de erro</small>
+      </div>
+      <div class="form-control">
+        <label for="email">E-mail*:</label>
+        <input type="email" name="email" id="email">
+        <i class="fas fa-exclamation-circle"></i>
+        <i class="fas fa-check-circle"></i>
+        <small>Mensagem de erro</small>
+      </div>
+      <div class="form-control">
+        <label for="password">Senha*:</label>
+        <input type="password" name="password" id="password">
+        <i class="fas fa-exclamation-circle"></i>
+        <i class="fas fa-check-circle"></i>
+        <small>Mensagem de erro</small>
+      </div>
+      <div class="form-control">
+        <label for="password">Confirme sua senha*:</label>
+        <input type="password" name="password_confirmation" id="password_confirmation">
+        <i class="fas fa-exclamation-circle"></i>
+        <i class="fas fa-check-circle"></i>
+        <small>Mensagem de erro</small>
+      </div>
+
+      <button type="submit" class="buttonSubmit">Enviar</button>
+
+    </form>
+  </div>
+
+  <script src="./script.js"></script>
+  <script src="https://kit.fontawesome.com/a97a1bedf2.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
